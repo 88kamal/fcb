@@ -1,5 +1,5 @@
-// import * as React from "react";
-import react, { useEffect } from "react";
+import React, {useEffect} from "react";
+import OneSignal from 'react-onesignal';
 import "./App.css";
 import { Header } from "./components/Header";
 // import { LatestJob } from "./components/LatestJob";
@@ -58,14 +58,15 @@ import { Bihar2YearBEdAnswerKey2022 } from "./components/fontupdater/Bihar2YearB
 import { DRDOScientistBOnlineForm2022 } from "./components/fontupdater/DRDOScientistBOnlineForm2022";
 import { MukhymantriUPSCScholarshipOnlineForm2022 } from "./components/menu/Scholarship/MukhymantriUPSCScholarshipOnlineForm2022";
 import { MungerUniversityUGAdmission2022BABScBComAdmissionProcess2022_25 } from "./components/menu/Scholarship/MungerUniversityUGAdmission2022BABScBComAdmissionProcess2022_25";
-import OneSignal from 'react-onesignal';
+
 
 
 function App() {
   useEffect(() => {
     OneSignal.init({
-      appId: "b06dfcd1-ee84-4a0b-a38f-d85c26028075",    });
+      appId: "4bd966c7-56b7-4e74-9363-1ef5eda5e255",    });
   }, []);
+  
   return (
     <div>
       <Header />

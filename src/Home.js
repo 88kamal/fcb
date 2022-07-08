@@ -6,6 +6,7 @@ import { Footer } from "./components/Footer";
 import { Font } from './Font';
 
 export const Home = () => {
+  
   return (
     <div>
         {/* <Search /> */}

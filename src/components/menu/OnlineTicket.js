@@ -50,7 +50,7 @@ export const OnlineTicket = () => {
             <a className=' text-center text-white font-bold font-sans' href="https://erail.in/station-live">Station <br />Station Live</a>
           </div>
           <div className=' flex justify-center  box1 bg-rose-700  transition duration-500 rounded-md hover:outline outline-2  outline-offset-2 hover:scale-110' style={{ padding: '9px' }}>
-          <i class="fa fa-rotate-right text-5xl text-white mx-2 "></i>
+          <i className="fa fa-rotate-right text-5xl text-white mx-2 "></i>
                       <a className=' text-center text-white font-bold font-sans' href="https://erail.in/railway-ticket-cancellation-charges">Refund <br />Railway Ticket cancelletion charge</a>
           </div>
           <div className=' flex justify-center  box1 bg-pink-500  transition duration-500 rounded-md hover:outline outline-2  outline-offset-2 hover:scale-110' style={{ padding: '9px' }}>
