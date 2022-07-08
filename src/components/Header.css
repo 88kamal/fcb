@@ -1,0 +1,16 @@
+@media screen and (max-width: 480px) {
+    .image{
+        width: 12em;
+    }
+   .b-heading{
+    font-size: 36px;
+   }
+   
+  }
+
+.header{
+    /* background: linear-gradient(5deg, rgb(236, 182, 7),rgb(0, 0, 242)); */
+    background: rgb(0, 225, 255);
+
+
+}
